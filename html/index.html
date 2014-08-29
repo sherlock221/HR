@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)http://zhaopin.jd.com/h5/index.html?from=singlemessage&isappinstalled=0 -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <title>JD 招聘</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <!--样式表-->
+    <link rel="stylesheet" href="../css/style.s.css">
+    <style type="text/css"></style>
+
+
+</head>
+<body style="">
+<div id="J_loading" class="mp_loading hide">
+  <div class="mp_loading_cont">
+    <div class="mp_loading_l"><i></i><i></i><i></i></div>
+    <div class="mp_loading_r"><i></i><i></i><i></i></div>
+    <div class="mp_loading_coffee"><i></i><i></i><i></i></div>
+    <!--div class="mp_loading_bar"><i></i></div-->
+  </div>
+  <txt id="J_percent" class="mp_loading_txt">100</txt>
+</div>
+<div id="J_mask" class="mask hide">
+  <b>点击右上角分享按钮，即可分享给好友和朋友圈</b>
+</div>
+<div id="J_z_mask" class="z_mask hide">
+</div>
+<div id="J_frame" src="form.html" class="frame_form ani_hide">
+  <iframe name="hidden_frame" class="hide" id="hidden_frame"></iframe>
+  <form action="http://hr.yixun.com/resume/add.php" method="post" target="hidden_frame" id="J_form">
+    <input type="hidden" id="input_position" name="r_position" value="">
+    <div id="J_jianli" class="jianli">
+      <div class="jianli_hd">
+        <i id="J_close" class="close"></i>
+        <h2>填写个人信息</h2>
+      </div>
+      <div id="J_content1" class="content_inner">
+        <ul id="J_jianli1" class="jianli_ul jianli_ul_1">
+          <li id="J_yname"><label for="input_1">你的姓名：</label><div class="warp_input"><input name="r_name" id="input_1" type="text" value=""></div></li>
+          <li id="J_yphone">
+            <label for="input_2">你的电话：</label>
+            <div class="warp_input"><input name="r_phone" id="input_2" type="tel"></div>
+          </li>
+          <li>
+            <label for="input_3">你的邮箱：</label>
+            <div class="warp_input"><input id="input_3" name="r_email" type="email"></div>
+          </li>
+          
+        </ul>
+        <ul id="J_jianli2" class="jianli_ul jianli_ul_2 hide">
+          <li>
+            <label for="input_6">工作年限：</label>
+            <div class="warp_input input_slc">
+              <i></i>
+              <select name="r_experience" id="input_6">
+                <option value="1">一年以内</option>
+                <option value="2">一到三年</option>
+                <option value="3">三年以上</option>
+                <option value="4">五年以上</option>
+              </select>              
+            </div>
+          </li>
+          <li id="J_exp">
+            <input id="input_4" name="r_tag" class="jingli" type="hidden">
+            <label for="input_4">过往经历：</label>
+            <div class="warp_input input_plus">
+              <div id="J_cpy" class="cpy">
+              </div>
+              <i></i>
+              <select id="input_5" class="s_plus" name="">
+                <option value="腾讯">腾讯</option>
+                <option value="阿里">阿里</option>
+                <option value="百度">百度</option>
+                <option value="迅雷">迅雷</option>
+                <option value="网易">网易</option>
+                <option value="微软">微软</option>
+                <option value="Google">Google</option>
+                <option value="携程">携程</option>
+                <option value="新浪">新浪</option>
+                <option value="小米">小米</option>
+                <option value="奇虎360">奇虎360</option>
+                <option value="优酷土豆">优酷土豆</option>
+                <option value="搜狐">搜狐</option>
+                <option value="人人">人人</option>
+                <option value="盛大">盛大</option>
+                <option value="美团">美团</option>
+                <option value="当当">当当</option>
+                <option value="巨人">巨人</option>
+                <option value="乐视">乐视</option>
+                <option value="搜房网">搜房网</option>
+                <option value="唯品会">唯品会</option>
+                <option value="UC">UC</option>
+                <option value="其他">其他</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+        <div id="J_next" class="submit next">下一步</div>
+        <div id="J_prev" class="submit pre hide">上一步</div>
+        <div id="J_submit" class="submit hide">提交个人信息</div>
+      </div>
+      <div id="J_content2" class="content2 hide">
+        <div class="submit_ok">
+          成功提交个人信息！<br>
+          请耐心等待我们联系你~
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="J_wrapper" class="content">
+  <div class="wrapper">
+    <ul class="container" style="height: 7200px; width: 480px; -webkit-transform: translate3d(0px, 0px, 0px);">
+      <li class="page page1_1" style="width: 480px; height: 720px;">
+        <div class="content">              
+          <div class="icos_1 icos_txt1"></div>
+          <div id="page1_ani1" class="icos_1 icos_txt2 andoird_opacity"></div>
+          <div id="page1_ani2" class="icos_1 icos_logo andoird_opacity"></div>
+          <div id="page1_ani3" class="icos_1 icos_logo2 andoird_opacity"></div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page2_1" style="width: 480px; height: 720px;">
+        
+        <div class="content hide">
+          <i class="page2_1_before"></i>
+          <div class="icos_1 icos_cafee2"><i></i><i></i><i></i></div>
+          <div class="icos_cafee2_shadow"></div>
+          <div class="icos_cup_shadow"></div>
+          <div class="icos_clock_shadow"></div>
+          <div class="icos_1 icos_clock"></div>
+          <div class="txt1">
+            清晨的阳光洒落在桌上<br>
+            刚从休息室现磨的咖啡散发缕缕清香<br>
+            低头细品的瞬间<br>
+            他嘴角扬起一丝微笑
+          </div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page2_2" style="width: 480px; height: 720px;">
+        <div class="content hide">
+          <div class="bg_animations">
+            <div class="ani_1"></div>
+            <div class="ani_2"></div>
+            <div class="ani_3"></div>
+            <div class="ani_4"></div>
+            <div class="ani_5"></div>
+            <div class="ani_6"></div>
+          </div>
+
+          <div class="txt1">
+            <h2>组织发展部</h2>
+            京东正经历互联网世上最伟大的组织变革<br>
+            Ta参与到组织变革的各个环节<br>
+            规范公司管控模式，诊断组织架构健康度<br>
+            搭建核心岗位能力素质模型<br>
+            Ta在京东等你~<br>
+            <a href="javascript:;" data-id="2" class="S_yp btn yellow">我要应聘</a>
+          </div>
+          <div class="icos_people1_shadow"></div>
+          <div class="icos_2 icos_people1"></div>
+          <div class="icos_arrow"></div>
+         </div>
+      </li>
+      
+      <li class="page page5_1" style="width: 480px; height: 720px;">
+        
+        <div class="content hide">
+          <i class="page5_1_before"></i>
+          <div class="icos_light"><i></i></div>
+          <div class="icos_bed"></div>
+          <div class="icos_2 icos_lamp"></div>   
+          <div class="bg_animations">
+            <div class="ani_1"></div>
+            <div class="ani_2"></div>
+            <div class="ani_3"></div>
+            <div class="ani_4"></div>
+            <div class="ani_5"></div>
+            <div class="ani_6"></div>
+            <div class="ani_7"></div>
+            <div class="ani_8"></div>
+            <div class="ani_9"></div>
+            <div class="ani_10"></div>
+          </div>         
+          <div class="txt1">
+            华灯初上<br>
+            迈着舒缓的步子走向地铁<br>
+            遥望梦幻的水立方<br>
+            内心一片平静与满足<br>
+          </div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page5_2 " style="width: 480px; height: 720px;">
+        <div class="content hide">
+          <div class="bg_animations">
+            <div class="ani_1"></div>
+            <div class="ani_2"></div>
+            <div class="ani_3"></div>
+            <div class="ani_4"></div>
+            <div class="ani_5"></div>
+            <div class="ani_6"></div>
+            <div class="ani_7"></div>
+            <div class="ani_9"></div>
+            <div class="ani_10"></div>
+          </div> 
+          <div class="txt1">
+            <h2>薪酬管理部</h2>
+            Ta是宏观分析师，从纷繁复杂中抽丝成茧，蛹化为蝶<br>
+            Ta是微观数据控，海量数据玩转于股掌之间<br>           
+            Ta是严谨与创新、理性和感性的有机结合体<br>
+            Ta是京东薪酬福利管理部HR，<br>
+            Ta在京东等你~<br>
+            <a href="javascript:;" data-id="4" class="S_yp btn pink">我要应聘</a>
+          </div>
+          <div class="icos_people4_shadow"></div>
+          <div class="icos_2 icos_people4"></div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page4_1" style="width: 480px; height: 720px;">
+        
+        <div class="content hide">
+          <div class="icos_2 icos_moon"></div>
+          <div class="icos_building">
+            <div class="building">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="building2">
+              <i></i>
+              <i></i>
+            </div>
+            <div class="building3"></div> 
+          </div>
+          <i class="page4_1_before"></i>
+          <div class="txt1">
+            会议室内<br>
+            远远传出时而兴奋  时而争吵的讨论声<br>
+            所有员工管理的方案<br>
+            都在这样的火花碰撞中产生<br>
+          </div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page4_2" style="width: 480px; height: 720px;">
+        <div class="content hide">
+          <div class="bg_animations">
+            <div class="ani_1"></div>
+            <div class="ani_2"></div>
+            <div class="ani_3"></div>
+            <div class="ani_4"></div>
+            <div class="ani_5"></div>
+            <div class="ani_6"></div>
+          </div>
+          <div class="txt1">
+            <h2>HRBP组</h2>
+            Ta们是业务部门的人力资源专家<br>
+            Ta们以战友身份陪伴<br>
+            以产品经理身份支持<br>
+            以合作伙伴角色成就业务部门<br>
+            Ta在京东等你~<br>
+            <a href="javascript:;" data-id="1" class="S_yp btn green">我要应聘</a>
+          </div>
+          <div class="icos_people3_shadow"></div>
+
+          <div class="icos_people3_bg">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+
+          <div class="icos_2 icos_people3"></div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page3_1" style="width: 480px; height: 720px;">        
+        <div class="content hide">
+          <i class="page3_1_before"></i>
+          <div class="paper_1"></div>
+          <div class="paper_5"></div>
+          <div class="paper_4"></div>
+          <div class="paper_2"></div>
+          <div class="paper_3"></div>
+          
+          <div class="paper_7"></div>
+          <div class="paper_6"></div>
+          
+          <div class="paper_8"></div>
+          <div class="paper_9"></div>
+
+          <div class="icos_2 icos_computer"><b id="J_gb">|</b><strong id="J_font">JD.COM</strong></div>
+          <div class="txt1">
+            头脑风暴会议刚刚结束<br>
+            就管理目标和工作方向达成一致，<br>
+            有些小小的兴奋~~<br>
+            整理思绪，着手方案细节的落实<br>
+          </div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page3_2" style="width: 480px; height: 720px;">
+        <div class="content hide">
+          <div class="bg_animations">
+            <div class="ani_1"></div>
+            <div class="ani_2"></div>
+            <div class="ani_3"></div>
+            <div class="ani_4"></div>
+            <div class="ani_5"></div>
+            <div class="ani_6"></div>
+            <div class="ani_7"></div>
+            <div class="ani_8"></div>
+            <div class="ani_9"></div>
+          </div>
+          <div class="txt1">
+            <h2>绩效管理部</h2>
+            Ta是胡萝卜+大棒理论的创新实践者和布道家<br>
+            Ta牵引组织战略执行和能力打造<br>
+            Ta实现有效激励和员工价值认可<br>           
+            Ta是京东绩效管理部HR，<br>
+            Ta在京东等你~<br>
+            <a href="javascript:;" data-id="3" class="S_yp btn orange">我要应聘</a>
+          </div>
+          <div class="icos_people2_shadow"></div>
+          <div class="icos_2 icos_people2"></div>
+          <div class="icos_arrow"></div>
+        </div>
+      </li>
+      <li class="page page6" style="width: 480px; height: 720px;">
+        <div class="content">
+          <div class="icos_email"></div>              
+          <div class="icos_txt1"> 请 发 送 简 历 到 邮 箱 <br> <div class="email">zhaopin_hr@jd.com</div></div>
+          <div id="J_maskbtn" class="btn red">邀请好友加入</div>
+          <div class="icos_we"><i></i><i></i><i></i><i></i></div>
+          <div class="icos_2 jd_logo"></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="landscape">
+    <div class="iphone"></div>
+    <div class="iphone_text">请将屏幕竖向浏览</div>
+</div>
+    <script src="../js/halo.js"></script>
+    <script>
+      var path=window.location.protocol+"//"+window.location.host+window.location.pathname.replace(/[^\/]+$/,'');
+
+      halo.shareConfig = {
+          img_url: path+'img/share.png',
+          img_width: 80,
+          img_heigth: 80,
+          link: path+'index.html',
+          title: '收拾行李，寻找最新的自己。我是HR，我在京东等你！',
+          desc: '收拾行李，寻找最新的自己。我是HR，我在京东等你！'
+      };
+    </script>
+<script>
+
+var J_loading = document.getElementById('J_loading');
+var J_wrapper = document.getElementById('J_wrapper');
+var J_percent = document.getElementById('J_percent');
+
+/* ani */
+var page1_ani1 = document.getElementById('page1_ani1');
+var page1_ani2 = document.getElementById('page1_ani2');
+var page1_ani3 = document.getElementById('page1_ani3');
+
+var J_maskbtn = document.getElementById('J_maskbtn');
+var J_mask = document.getElementById('J_mask');
+var J_z_mask = document.getElementById('J_z_mask');
+var J_frame = document.getElementById('J_frame');
+var input_position = document.getElementById('input_position');
+var J_font = document.getElementById('J_font');
+var J_gb = document.getElementById('J_gb');
+
+halo.use('yscroll', 'loader',function(m){
+  var loader = new m.loader(['img/loading.png','img/img_1.png','img/img_2.png']).loadend(function(){
+      J_percent.innerHTML = parseInt(this.percent);
+
+      if(this._index == 3){      
+        m.removeClass(J_wrapper, 'hide');
+      }
+  }).complete(function(){
+      m.addClass(J_loading, 'hide');
+
+      var _last_idx = 0;
+      var wrapper_scroll = new m.yscroll('.wrapper', {
+        Scontainer : '.container',
+        hScroll : false,
+        vScroll : true,
+        momentum : true,
+        bounce : false,
+        snap: true,
+        scrollBefore: function(name, e){
+        },
+        onScroll: function(name, obj){
+        },
+        onTouchEnd: function(name, obj){
+        },
+        scrollEnd: function(index){
+          var pages = this.$li;
+          for (var i = 0; i < pages.length; i++) {
+            halo.util.addClass(pages[i].querySelector('.content'), 'hide');      
+          };
+          halo.util.removeClass(pages[index].querySelector('.content'), 'hide');
+        }
+      });
+
+      J_maskbtn.addEventListener('touchstart', function(e){
+        halo.util.removeClass(J_mask, 'hide');
+        e.preventDefault();
+        e.stopPropagation();
+        setTimeout(function(){
+          J_mask.addEventListener('touchstart', function(e){
+            halo.util.addClass(J_mask, 'hide'); 
+            e.preventDefault();
+            e.stopPropagation();
+          })
+        }, 300);   
+      });
+
+
+      document.addEventListener('touchstart', function(e){
+        var target = e.targetTouches ? e.targetTouches[0] : e.target;
+        if(target.target.className.indexOf('S_yp') > -1){
+
+          target = target.target;
+          var id = target.dataset['id'];
+          halo.util.removeClass(J_frame, 'ani_hide');
+          halo.util.addClass(J_wrapper, 'suoxiao');
+          halo.util.removeClass(J_z_mask, 'hide');
+          input_position.value = id;
+          console.log(id);
+        }
+      });
+      /*var S_yp = document.querySelectorAll('.S_yp');
+
+      S_yp = Array.prototype.slice.call(S_yp, 0);
+
+      for (var i = 0; i < S_yp.length; i++) {
+        S_yp[i].addEventListener('touchstart', )
+      };*/
+      
+    var J_submit = document.getElementById('J_submit');
+    var J_form = document.getElementById('J_form');
+    var J_content1 = document.getElementById('J_content1');
+    var J_content2 = document.getElementById('J_content2');
+    
+    var i_name = document.getElementById('input_1');
+    var i_phone = document.getElementById('input_2');
+    var i_mail = document.getElementById('input_3');
+    var i_year = document.getElementById('input_6');
+    var i_exp = document.getElementById('input_4');
+    var input_5 = document.getElementById('input_5');
+    var J_next = document.getElementById('J_next');
+    var J_prev = document.getElementById('J_prev');
+    var J_jianli1 = document.getElementById('J_jianli1');
+    var J_jianli2 = document.getElementById('J_jianli2');
+    var J_yphone = document.getElementById('J_yphone');
+    var J_exp = document.getElementById('J_exp');
+    var J_yname = document.getElementById('J_yname');
+
+    var trim = function(str) {  
+            return str.replace(/(^\s*)|(\s*$)/g, "");  
+    } 
+    J_submit.addEventListener('click', function(e){
+      if(trim(i_name.value) == ''){
+        return;
+      }
+      if(trim(i_phone.value) == ''){
+        return;
+      }
+      if(trim(i_exp.value) == ''){       
+        halo.util.addClass(J_exp, 'error');
+        return;
+      }else{
+        halo.util.removeClass(J_exp, 'error');
+      }
+      J_form.submit();
+      halo.util.removeClass(J_content2, 'hide');
+      halo.util.addClass(J_content1, 'hide');
+      setTimeout(function(){
+        halo.util.addClass(J_frame, 'ani_hide');
+        halo.util.addClass(J_z_mask, 'hide');
+        halo.util.addClass(J_content2, 'hide');
+        halo.util.removeClass(J_content1, 'hide');
+        halo.util.removeClass(J_wrapper, 'suoxiao');   
+      }, 1000);
+    });
+
+    input_5.addEventListener('change', function(){
+      if(i_exp.value.indexOf(input_5.value) > -1)
+        return;
+      var tag = document.createElement('div');
+      tag.className = 'cpy_tag';
+      tag.innerHTML = input_5.value;
+      J_cpy.appendChild(tag);
+      i_exp.value = i_exp.value + ',' + input_5.value;
+    });
+
+    J_close.addEventListener('click', function(){
+      halo.util.removeClass(J_content1, 'hide');
+      halo.util.addClass(J_content2, 'hide');
+      halo.util.removeClass(J_wrapper, 'suoxiao');
+      halo.util.addClass(J_z_mask, 'hide');
+      halo.util.addClass(J_frame, 'ani_hide');
+    });
+
+    J_next.addEventListener('click', function(){
+      if(trim(i_name.value) == ''){
+        halo.util.addClass(J_yname, 'error');
+        return;
+      }else{
+        halo.util.removeClass(J_yname, 'error');
+      }
+      if(trim(i_phone.value) == ''){
+        halo.util.addClass(J_yphone, 'error');
+        return;
+      }else{
+        halo.util.removeClass(J_yphone, 'error');
+      }
+      halo.util.addClass(J_jianli1, 'hide');
+      halo.util.removeClass(J_jianli2, 'hide');
+      halo.util.removeClass(J_prev, 'hide');
+      halo.util.removeClass(J_submit, 'hide');
+      halo.util.addClass(J_next, 'hide');
+    });
+    J_z_mask.addEventListener('touchstart', function(e){
+      e.preventDefault();
+      e.stopPropagation();
+    })
+    J_prev.addEventListener('click', function(){
+      halo.util.removeClass(J_jianli1, 'hide');
+      halo.util.addClass(J_jianli2, 'hide');
+      halo.util.addClass(J_prev, 'hide');
+      halo.util.addClass(J_submit, 'hide');
+      halo.util.removeClass(J_next, 'hide');
+    });
+    J_jianli.addEventListener('click', function(e){
+      var target = e.targetTouches ? e.targetTouches[0] : e.target;
+      if(target.className.indexOf('cpy_tag') > -1){
+        var _exp = i_exp.value;
+        var txt = target.innerHTML;
+        _exp = _exp.replace(',' + txt, '');
+        i_exp.value = _exp;
+        target.parentNode.removeChild(target);
+      }
+    })
+
+  });
+});
+
+var browser={
+  versions:function(){
+    var u = navigator.userAgent, app = navigator.appVersion;
+    return {//移动终端浏览器版本信息
+      trident: u.indexOf('Trident') > -1, //IE内核
+      presto: u.indexOf('Presto') > -1, //opera内核
+      webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+      gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+      mobile: !!u.match(/AppleWebKit.*Mobile.*/)||!!u.match(/AppleWebKit/), //是否为移动终端
+      ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+      android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+      iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+      iPad: u.indexOf('iPad') > -1, //是否iPad
+      webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+      weixin:u.indexOf('MicroMessenger')>-1
+    };
+       }(),
+       language:(navigator.browserLanguage || navigator.language).toLowerCase(),
+   versionNum:function(){
+    /*版本号,只针对android*/
+    var u = navigator.userAgent,matchIndex=u.indexOf('Android');
+    if(matchIndex>-1){
+      var num=u.substring(matchIndex+7,matchIndex+11).replace(' ','');
+      return parseFloat(num);
+    }
+    return '';
+   }(),
+   avail:function(){
+    return {width:document.documentElement.clientWidth,height:document.documentElement.clientHeight}; 
+   }()
+};
+
+if(parseFloat(browser.versionNum) <= 2.3){
+  halo.util.addClass(J_wrapper, 'andoird2-3');
+}
+
+</script>
+	
+
+
+<embed id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd" type="application/thunder_download_plugin" height="0" width="0"><div id="window-resizer-tooltip" style="display: block;"><a href="http://zhaopin.jd.com/h5/index.html?from=singlemessage&isappinstalled=0#" title="Edit settings" style="background-image: url(chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/images/icon_19.png);"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">480</span> x <span class="tooltipHeight" id="winHeight">792</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">480</span> x <span class="tooltipHeight" id="vpHeight">676</span></div></body></html>
